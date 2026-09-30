@@ -39,7 +39,7 @@ a {
 
 .head {
   width: 100%;
-  min-height: 82px;
+  min-height: 100px;
 
   padding: 0 6%;
 
@@ -67,6 +67,11 @@ a {
 
 .logo span {
   color: #ff2e63;
+
+
+      max-width: 120px; 
+    margin: 0 auto;   
+    text-align: center;
 }
 
 .menu {
@@ -176,34 +181,27 @@ a {
     rgba(38, 116, 217, .18);
 }
 
-.hero-img {
-  width: 56%;
+.hero-img{
+  width: 500px;
+  height: 500px;
+}
 
-  min-height: 400px;
+.hero-img img{
+  width: 600px;
+
+  height: 500px;
 
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-
-  position: relative;
+  justify-content: space-between;
 }
 
-.hero-img::after {
-  content: "";
-
-  width: 370px;
-  height: 370px;
-
-  position: absolute;
-
-  right: -120px;
-  bottom: -80px;
-
-  border-radius: 50%;
-
-  background: #e9eef8;
-
-  z-index: 0;
+.hero-img {
+ background-image: url("../img/dili.11.png");
+ background-size: 350px;
+ background-repeat: no-repeat;
+ /* position: absolute;  */
+  /* left: 100px; */
 }
 
 .hero-img img {
@@ -311,11 +309,11 @@ a {
 }
 
 .car-info p {
-  padding-right: 38px;
+  padding-left:70px;
 
   color: #777;
 
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .car-button {
@@ -599,6 +597,7 @@ a {
 
   color: #777;
 }
+
 
 /* winners section end */
 
